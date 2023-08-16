@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 3s;
+}
+body {
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left top;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.rate1, .rate2, .rate3 {
+    background-color: hsla(333, 80%, 67%, 0.089);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 450px;
+    font-weight: 900;
+    color: hsl(300, 43%, 22%);
+}
+.rate1 { 
+    margin-top: 30px;
+ }
+.rate2 {
+     margin-left: 55px; 
+    }
+.rate3 {
+     margin-left: 100px; 
+    }
+
+
+.texts {
+    width: 400px;
+}
+.rated {
+    display: flex;
+    align-items: center;
+}
+.rated-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.star1 {
+    height: 20px;
+    padding-right: 7px;
+    padding-left: 4px;
+}
+.star {
+    height: 20px;
+    padding-right: 7px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1300px;
+    margin-left: 100px;
+}
+.unir1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.sep {
+    margin-right: 100px;
+}
+.t {
+    display: flex;
+}
+.text-title {
+    width: 500px;
+}
+.ti {
+    font-size: 60px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 20px;
+}
+.sp {
+    padding-left: 30px;
+    font-size: 18px;
+}
+.p1 {
+    line-height: 20px;
+}
+
+/* Box styles */
+.box-content {
+    display: flex;
+}
+.box1, .box2, .box3 {
+    width: 350px;
+    background-color: #511F50;
+    border-radius: 10px;
+    margin-right: 30px;
+    height: 200px;
+    color: white;
+}
+.box1 {
+    margin-left: 10px;
+}
+.box2 {
+    margin-top: 15px;
+}
+.box3 {
+    margin-top: 30px;
+}
+.desc {
+    padding: 30px;
+}
+.ft {
+    border-radius: 50px;
+    height: 45px;
+    margin-right: 20px;
+}
+.m {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.n {
+    color: #AE5A93;
+}
+.un {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.x {
+    font-size: 16px;
+}
+.ava {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 1550px) {
+    .card {
+        height: 500px;
+    }
+    .t {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .card {
+        flex-direction: column;
+        width: 500px;
+    }
+    .unir1 {
+        flex-direction: column;
+        width: 350px;
+    }
+    .text-title {
+        width: 350px;
+    }
+    .box-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1 {
+        margin-left: 30px;
+    }
+    .rate2 {
+       
+        width: 350px;
+    }
+    .rate3 {
+       
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    .rated-content {
+        width: 350px;
+    }
+    .rate1, .rate2, .rate3 {
+        margin-left: 0px;
+    }
+    .box1 {
+        margin-left: 60px;
+        margin-right: 0px;
+    }
+    .box1, .box2, .box3 {
+        margin-left: 30px;
+    }
+    .rated {
+        width: 350px;
+    }
+    .card {
+        width: 350px;
+        height: 700px;
+    }
+    .rate1 {
+        width: 350px;
+        text-align: center;
+    }
+    .rate1, .rate2, .rate3 {
+        margin-left: 0px;
+    }
+    body {
+        height: 800px;
+    }
+    .sep {
+        text-align: center;
+    }
+    .stars {
+        margin-bottom: 10px;
+    }
+    .box1 {
+        margin-left: 0;
+    }
+    .ti {
+        font-size: 40px;
+    }
+    .sp {
+        padding-left: 0;
+    }
+    .card{
+        margin-left: 0px;
+    }
+    .p1{
+        font-size: 14px;
+    }
+}
